@@ -1,0 +1,64 @@
+
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; 
+}
+.grid{
+	margin:auto;}
+@media (min-width: 75em){
+.grid {
+  width: 60em;
+}
+}
+
+
+.grid-col-5of10 {
+	width: 50%;
+}
+.grid-col-4of10 {
+	width: 40%;
+}
+.grid-col-6of10 {
+	width: 60%;
+}
+
+
+@media (max-width: 52em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+
+
+.grid-col-2of10 {
+	width: 20%;
+}
+
+
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
