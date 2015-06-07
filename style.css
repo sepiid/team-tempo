@@ -1,3 +1,5 @@
+/* ---------  grid  ------------ */
+
 .row{
 	clear: both;
 }
@@ -67,15 +69,17 @@
 }
 
 .col-11of12{
-	width:%;
+	width:91.66666%;
 	float:left;
 	display: inline-block;
 
 }
 
 .col-12of12{
-	width:91.66666%;
+	width:100%;
 	float:left;
 	display: inline-block;
 }
+
+
 
