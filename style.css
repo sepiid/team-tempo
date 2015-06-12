@@ -74,3 +74,44 @@ a.nav-item:hover:before, a.nav-item:hover:after{
 .white{
 	color:#fff;
 }
+
+/* ---------  Text Input  ------------ */
+p.text-input {
+	position: relative;
+	margin: 30px 0;
+}
+input {
+	background: transparent;
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	transition: border-left 0.5s ease-out;
+	-webkit-transition: border-left 0.5s ease-out;
+}
+label {
+	position: absolute;
+	left: 10px;
+	top: 9px;
+	color: #879EAD;
+	font-size: 0.8em;
+	transition-property: top, left;
+	transition-duration: .2s;
+	transition-timing-function: ease;
+	z-index: -10;
+}
+input:focus ~ label, input.show ~ label {
+	top: -20px;
+	left: 0;
+	color: rgba(135, 158, 173, 0.7);
+	font-size: 0.7em;
+}
+input:focus {
+	outline: none;
+	border-color: rgba(135, 158, 173, 0.7);
+	border-left: 5px solid #879EAD;
+}
+input:focus ~ label:after, input.show ~ label:after {
+	content: ":";
+}
+
