@@ -5,16 +5,17 @@ body {
 	overflow-x:hidden;
 }
 
-@media(max-width: 75em) {
+@media(max-width: 74em) {
     body {
         margin-left: 2em;
         margin-right: 2em;
     }
+}
+@media(max-width: 53em) {
     .screen-sm.col-2of12{
     	width:100%;
     }
 }
-
 a{
 	text-decoration: none;
 	color:#333333;
