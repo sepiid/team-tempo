@@ -143,3 +143,35 @@ input:focus {
 input:focus ~ label:after, input.show ~ label:after {
 	content: ":";
 }
+
+/* ---------  in-text link ------------ */
+
+a.text-link {
+	color: #879EAD;
+	font-size: 1em;
+	text-decoration: none;
+	transition: color 0.5s ease-out;
+	-webkit-transition: color 0.5s ease-out;
+}
+a.text-link:hover, a.text-link:focus {
+	color: #9DBED3;
+	text-decoration: underline;
+}
+
+/* ---------  submit/reset button  ------------ */
+
+.submit-btn {
+	background-color: rgba(135, 158, 173, 0.7);
+	border: 1px solid #879EAD;
+	color: #FFF;
+	display: inline-block;
+	padding: 0.8em 1.25em;
+	font-weight: 300;
+	font-size: 0.9em;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+	-webkit-transition: background-color 0.5s ease-out;
+}
+.submit-btn:hover, .submit-btn:focus {
+	background-color: rgba(135, 158, 173, 0.4);
+}
