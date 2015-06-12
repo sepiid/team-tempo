@@ -13,7 +13,9 @@ a{
 	  padding-top:8em;
   width: 79em;
 }
-
+.text-center{
+	text-align: center;
+}
 .logo{
 	padding-top: 0.6em;
 }
@@ -81,7 +83,26 @@ a.nav-item:hover:before, a.nav-item:hover:after{
 .white{
 	color:#fff;
 }
-
+/* ---------  Heading  ------------ */
+h1 {
+	font-size: 2rem;
+	font-weight: 200;
+}
+h2 {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+h3 {
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+h4 {
+	font-weight: 500;
+	font-size: 1rem;
+}
+h5 {
+	font-size: 0.8rem;
+}
 /* ---------  Text Input  ------------ */
 p.text-input {
 	position: relative;
@@ -121,4 +142,3 @@ input:focus {
 input:focus ~ label:after, input.show ~ label:after {
 	content: ":";
 }
-
