@@ -12,7 +12,7 @@ a{
 .container{
 	  margin: auto ;
 	  padding-top:8em;
-  width: 79em;
+  max-width: 74em;
 }
 .text-center{
 	text-align: center;
