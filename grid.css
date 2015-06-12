@@ -3,11 +3,14 @@
 
 .row{
 	clear: both;
+	width:100%;
+	height:100%;
 }
 
 [class^='col-'] {
 	float: left;
 	display: inline-block;
+	box-sizing: border-box;
 	}
 
 .col-1of12{
