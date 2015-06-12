@@ -32,12 +32,12 @@ a{
 nav{
 	text-align: center;
 	background-color:rgba(0,0,0,70);
-	height:6em;
+	height:2em;
 	padding:2em 0px 1em;
 	position: fixed;
-  left: 0;
-  top: 3.7em;
-  width: 100%;
+  	left: 0;
+  	top: 3.7em;
+  	width: 100%;
 
 }
 nav .row div a{
