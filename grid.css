@@ -1,0 +1,95 @@
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color:#333333;
+}
+
+/* ---------  grid  ------------ */
+
+.row{
+	clear: both;
+}
+
+.col-1of12{
+	width:8.3333%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-2of12{
+	width:16.6666%;
+	float:left;
+	display: inline-block;
+}
+
+.col-3of12{
+	width:24.99999%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-4of12{
+	width:33.3333%;
+	float:left;
+	display: inline-block;
+}
+
+.col-5of12{
+	width:41.6666%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-6of12{
+	width:50%;
+	float:left;
+	display: inline-block;
+}
+
+.col-7of12{
+	width:58.3333%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-8of12{
+	width:66.6666%;
+	float:left;
+	display: inline-block;
+}
+.col-9of12{
+	width:75%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-10of12{
+	width:83.3333%;
+	float:left;
+	display: inline-block;
+}
+
+.col-11of12{
+	width:91.66666%;
+	float:left;
+	display: inline-block;
+
+}
+
+.col-12of12{
+	width:100%;
+	float:left;
+	display: inline-block;
+}
+
+
+
