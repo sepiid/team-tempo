@@ -16,7 +16,13 @@ a{
   vertical-align: middle;
   padding-left:1em;
 }
-.facebook{padding-right: 1em;}
+.facebook{padding: .6em 1em 0 0; 
+	display: inline-block;
+	  font-size: 1.3em;
+}
+.twitter{
+	font-size: 1.3em;
+}
 
 /* ---------  navigation  ------------ */
 .top-nav{
