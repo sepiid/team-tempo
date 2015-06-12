@@ -27,6 +27,13 @@ a{
 .text-center{
 	text-align: center;
 }
+.img-responsive {
+  width: 100%;
+  margin: auto;
+}
+.product-description{
+	text-align: right;
+}
 .logo{
 	padding-top: 0.6em;
 }
