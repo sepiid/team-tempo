@@ -9,7 +9,8 @@ a{
 	color:#333333;
 }
 .container{
-	  margin: 7em auto 0;
+	  margin: auto ;
+	  padding-top:8em;
   width: 79em;
 }
 
@@ -36,7 +37,7 @@ a{
 }
 nav{
 	text-align: center;
-	background-color:rgba(0,0,0,70);
+	background-color:rgba(0,0,0,0.7);
 	height:2em;
 	padding:2em 0px 1em;
 	position: fixed;
