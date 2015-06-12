@@ -8,21 +8,18 @@ a{
 	text-decoration: none;
 	color:#333333;
 }
-.logo{
-	text-align: center;
-}
-.login-cart-nav{
-	text-align: center;
-}
+
 .shopping-cart{
 	  font-size: 2em;
   vertical-align: top;
   padding-left:1em;
 }
+.facebook{padding-right: 1em;}
 
 /* ---------  navigation  ------------ */
 .top-nav{
 	padding-top:0.5em;
+	text-align: center;
 }
 nav{
 	text-align: center;
