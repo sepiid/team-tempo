@@ -2,6 +2,7 @@
 body {
 	font-family: 'Alegreya Sans', sans-serif;
 	margin:auto;
+	overflow-x:hidden;
 }
 
 a{
