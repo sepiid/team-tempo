@@ -8,6 +8,11 @@ a{
 	text-decoration: none;
 	color:#333333;
 }
+.container{
+	  margin: 7em auto 0;
+  width: 79em;
+}
+
 .logo{
 	padding-top: 0.6em;
 }
@@ -38,6 +43,7 @@ nav{
   	left: 0;
   	top: 3.7em;
   	width: 100%;
+  	z-index: 1000;
 
 }
 a.nav-item{
