@@ -5,11 +5,10 @@
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 }
-.row{
-	clear: both;
-	width:100%;
-	height:100%;
-	display: -webkit-box;
+.row:after {
+content: "";
+display: block;
+clear: both;
 }
 
 [class^='col-'] {
