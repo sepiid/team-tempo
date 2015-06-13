@@ -62,8 +62,7 @@ a{
 nav{
 	text-align: center;
 	background-color:rgba(0,0,0,0.7);
-	height:2em;
-	padding:2em 0px 1em;
+	padding:2em 0px 1.5em;
 	position: fixed;
   	left: 0;
   	top: 3.7em;
