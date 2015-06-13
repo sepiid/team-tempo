@@ -5,7 +5,7 @@ margin:auto;
 overflow-x:hidden;
 }
 
-@media(min-width: 74em) {
+@media(min-width: 81em) {
 	.row {
 		padding-left: 4em;
 		padding-right: 4em; 
@@ -29,7 +29,7 @@ a{
 .container{
 	margin: auto ;
 	padding-top:1em;
-	max-width: 74em;
+	max-width: 81em;
 }
 .text-center{
 	text-align: center;
@@ -66,7 +66,7 @@ a{
 nav{
 	text-align: center;
 	background-color:rgba(0,0,0,0.7);
-	padding:2em 0px 1.5em;
+	padding:2em 0 1.5em;
 	width: 100%;
 	z-index: 1000;
 }

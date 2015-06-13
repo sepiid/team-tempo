@@ -8,4 +8,11 @@ $( document ).ready(function() {
     		$('nav').removeClass('nav-fixed');
     	}
     });
+    $("#owl-demo").owlCarousel({
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3]
+ 
+  });
+
 });
