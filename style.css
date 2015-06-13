@@ -1,197 +1,205 @@
 
 body {
-	font-family: 'Alegreya Sans', sans-serif;
-	margin:auto;
-	overflow-x:hidden;
+font-family: 'Alegreya Sans', sans-serif;
+margin:auto;
+overflow-x:hidden;
 }
 
+@media(min-width: 74em) {
+    body {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+}
 @media(max-width: 74em) {
-    body {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+    .row {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 @media(max-width: 53em) {
-    .screen-sm.col-2of12{
-    	width:100%;
-    }
+ 
+    .screen-sm.col-2of12{
+    width:100%;
+    }
 }
 a{
-	text-decoration: none;
-	color:#333333;
+text-decoration: none;
+color:#333333;
 }
 .container{
-	  margin: auto ;
-	  padding-top:1em;
-  max-width: 74em;
+  margin: auto ;
+  padding-top:1em;
+  max-width: 74em;
 }
 
 .text-center{
-	text-align: center;
+text-align: center;
 }
 .img-responsive {
-  width: 100%;
-  margin: auto;
+  width: 100%;
+  margin: auto;
 }
 .product-description{
-	text-align: right;
+text-align: right;
 }
 .logo{
-	padding-top: 0.6em;
+padding-top: 0.6em;
 }
 .shopping-cart{
-	  font-size: 2em;
-  vertical-align: middle;
-  padding-left:1em;
+  font-size: 2em;
+  vertical-align: middle;
+  padding-left:1em;
 }
 .facebook{padding: .6em 1em 0 0; 
-	display: inline-block;
-	  font-size: 1.3em;
+display: inline-block;
+  font-size: 1.3em;
 }
 .twitter{
-	font-size: 1.3em;
+font-size: 1.3em;
 }
 
-/* ---------  navigation  ------------ */
+/* ---------  navigation  ------------ */
 .top-nav{
-	padding-top:0.5em;
-	text-align: center;
+padding-top:0.5em;
+text-align: center;
 }
 nav{
-	text-align: center;
-	background-color:rgba(0,0,0,0.7);
-	padding:2em 0px 1.5em;
-  	width: 100%;
-  	z-index: 1000;
+text-align: center;
+background-color:rgba(0,0,0,0.7);
+padding:2em 0px 1.5em;
+  width: 100%;
+  z-index: 1000;
+
 
 }
 .nav-fixed{
-	position: fixed;
-  	left: 0;
-  	top: 0;
+position: fixed;
+  left: 0;
+  top: 0;
 }
 a.nav-item{
-	color:white;
-	 margin:0;
-    padding: 0.4em 0;
-    position: relative;
-    z-index: 0;
-    cursor: pointer;
+color:white;
+ margin:0;
+    padding: 0.4em 0;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
 }
 a.nav-item:before, a.nav-item:after{
-	 position: absolute;
-    opacity: 0;
-    width: 0%;
-    height: 0.2em;
-    content: '';
-    background: #FFF;
-    transition: all 0.3s;
+ position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 0.2em;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
 }
 a.nav-item:before{
-	left:0;
-	top:0;
+left:0;
+top:0;
 }
 a.nav-item:after{
-	right:0;
-	bottom:0;
+right:0;
+bottom:0;
 }
 a.nav-item:hover:before, a.nav-item:hover:after{
-	opacity:1;
-	width:100%;
+opacity:1;
+width:100%;
 }
 
-/* ---------  color  ------------ */
+/* ---------  color  ------------ */
 .white{
-	color:#fff;
+color:#fff;
 }
-/* ---------  Heading  ------------ */
+/* ---------  Heading  ------------ */
 h1 {
-	font-size: 2rem;
-	font-weight: 200;
+font-size: 2rem;
+font-weight: 200;
 }
 h2 {
-	font-weight: 300;
-	font-size: 1.5rem;
+font-weight: 300;
+font-size: 1.5rem;
 }
 h3 {
-	font-weight: 400;
-	font-size: 1.2rem;
+font-weight: 400;
+font-size: 1.2rem;
 }
 h4 {
-	font-weight: 500;
-	font-size: 1rem;
+font-weight: 500;
+font-size: 1rem;
 }
 h5 {
-	font-size: 0.8rem;
+font-size: 0.8rem;
 }
-/* ---------  Text Input  ------------ */
+/* ---------  Text Input  ------------ */
 p.text-input {
-	position: relative;
-	margin: 30px 0;
+position: relative;
+margin: 30px 0;
 }
 input {
-	background: transparent;
-	width: 300px;
-	height: 30px;
-	padding-left: 5px;
-	border: 1px solid #ccc;
-	transition: border-left 0.5s ease-out;
-	-webkit-transition: border-left 0.5s ease-out;
+background: transparent;
+width: 300px;
+height: 30px;
+padding-left: 5px;
+border: 1px solid #ccc;
+transition: border-left 0.5s ease-out;
+-webkit-transition: border-left 0.5s ease-out;
 }
 label {
-	position: absolute;
-	left: 10px;
-	top: 9px;
-	color: #879EAD;
-	font-size: 0.8em;
-	transition-property: top, left;
-	transition-duration: .2s;
-	transition-timing-function: ease;
-	z-index: -10;
+position: absolute;
+left: 10px;
+top: 9px;
+color: #879EAD;
+font-size: 0.8em;
+transition-property: top, left;
+transition-duration: .2s;
+transition-timing-function: ease;
+z-index: -10;
 }
 input:focus ~ label, input.show ~ label {
-	top: -20px;
-	left: 0;
-	color: rgba(135, 158, 173, 0.7);
-	font-size: 0.7em;
+top: -20px;
+left: 0;
+color: rgba(135, 158, 173, 0.7);
+font-size: 0.7em;
 }
 input:focus {
-	outline: none;
-	border-color: rgba(135, 158, 173, 0.7);
-	border-left: 5px solid #879EAD;
+outline: none;
+border-color: rgba(135, 158, 173, 0.7);
+border-left: 5px solid #879EAD;
 }
 input:focus ~ label:after, input.show ~ label:after {
-	content: ":";
+content: ":";
 }
 
-/* ---------  in-text link ------------ */
+/* ---------  in-text link ------------ */
 
 a.text-link {
-	color: #879EAD;
-	font-size: 1em;
-	text-decoration: none;
-	transition: color 0.5s ease-out;
-	-webkit-transition: color 0.5s ease-out;
+color: #879EAD;
+font-size: 1em;
+text-decoration: none;
+transition: color 0.5s ease-out;
+-webkit-transition: color 0.5s ease-out;
 }
 a.text-link:hover, a.text-link:focus {
-	color: #9DBED3;
-	text-decoration: underline;
+color: #9DBED3;
+text-decoration: underline;
 }
 
-/* ---------  submit/reset button  ------------ */
+/* ---------  submit/reset button  ------------ */
 
 .submit-btn {
-	background-color: rgba(135, 158, 173, 0.7);
-	border: 1px solid #879EAD;
-	color: #FFF;
-	display: inline-block;
-	padding: 0.8em 1.25em;
-	font-weight: 300;
-	font-size: 0.9em;
-	text-decoration: none;
-	transition: background-color 0.5s ease-out;
-	-webkit-transition: background-color 0.5s ease-out;
+background-color: rgba(135, 158, 173, 0.7);
+border: 1px solid #879EAD;
+color: #FFF;
+display: inline-block;
+padding: 0.8em 1.25em;
+font-weight: 300;
+font-size: 0.9em;
+text-decoration: none;
+transition: background-color 0.5s ease-out;
+-webkit-transition: background-color 0.5s ease-out;
 }
 .submit-btn:hover, .submit-btn:focus {
-	background-color: rgba(135, 158, 173, 0.4);
+background-color: rgba(135, 158, 173, 0.4);
 }
