@@ -205,13 +205,13 @@ a.text-link:hover, a.text-link:focus {
 	background-color: rgba(135, 158, 173, 0.4);
 }
 
-<<<<<<< HEAD
+
 /* ---------  about us  ------------ */
 
 
 
 
-.minificha-tabs input[type=radio] {
+.minificha-tabs li input[type=radio] {
 	display: none;
 }
 
@@ -286,7 +286,6 @@ ul.minificha-tabs{
 
 
 
-=======
 /* ---------  owl carousel  ------------ */
 #owl-demo .item{
   margin: 3px;
@@ -307,4 +306,3 @@ ul.minificha-tabs{
 	border:1px solid rgba(83, 98, 102,1);
 }
 
->>>>>>> origin/master
