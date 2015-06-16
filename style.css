@@ -200,3 +200,24 @@ a.text-link:hover, a.text-link:focus {
 .submit-btn:hover, .submit-btn:focus {
 	background-color: rgba(135, 158, 173, 0.4);
 }
+
+/* ---------  owl carousel  ------------ */
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.owl-item{background-color: rgba(255,255,255,0.2);
+	border:1px solid rgba(83, 98, 102,0);
+
+}
+.owl-item.active{
+	transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	background-color: rgba(255,255,255,1);
+	border:1px solid rgba(83, 98, 102,1);
+}
+
