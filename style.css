@@ -45,9 +45,13 @@ a{
 
 }
 .shopping-cart{
+	color: white;
 	font-size: 2em;
 	vertical-align: middle; 
 	padding-left:1em;
+}
+.login-link{
+	color: white;
 }
 .facebook{
 	padding: .6em 1em 0 0; 
