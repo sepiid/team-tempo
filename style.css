@@ -5,7 +5,7 @@ margin:auto;
 overflow-x:hidden;
 }
 
-@media(min-width: 74em) {
+@media(min-width: 81em) {
 	.row {
 		padding-left: 4em;
 		padding-right: 4em; 
@@ -29,7 +29,7 @@ a{
 .container{
 	margin: auto ;
 	padding-top:1em;
-	max-width: 74em;
+	max-width: 81em;
 }
 .text-center{
 	text-align: center;
@@ -70,7 +70,7 @@ a{
 nav{
 	text-align: center;
 	background-color:rgba(0,0,0,0.7);
-	padding:2em 0px 1.5em;
+	padding:2em 0 1.5em;
 	width: 100%;
 	z-index: 1000;
 }
@@ -205,6 +205,7 @@ a.text-link:hover, a.text-link:focus {
 	background-color: rgba(135, 158, 173, 0.4);
 }
 
+<<<<<<< HEAD
 /* ---------  about us  ------------ */
 
 
@@ -285,3 +286,25 @@ ul.minificha-tabs{
 
 
 
+=======
+/* ---------  owl carousel  ------------ */
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.owl-item{background-color: rgba(255,255,255,0.2);
+	border:1px solid rgba(83, 98, 102,0);
+
+}
+.owl-item.active{
+	transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+	background-color: rgba(255,255,255,1);
+	border:1px solid rgba(83, 98, 102,1);
+}
+
+>>>>>>> origin/master
