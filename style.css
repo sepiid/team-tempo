@@ -42,16 +42,20 @@ a{
 	text-align: right;
 }
 .logo{
-
+	width:6em;
+	margin:auto;
+	margin-top: -0.4em
 }
 .shopping-cart{
 	color: white;
 	font-size: 2em;
-	vertical-align: middle; 
+	display: inline-block;
+  	margin-top: -0.3em; 
 	padding-left:1em;
 }
 .login-link{
 	color: white;
+	vertical-align:top;
 }
 .facebook{
 	padding: .6em 1em 0 0; 
@@ -73,12 +77,13 @@ nav{
 	padding:2em 0 1.5em;
 	width: 100%;
 	z-index: 1000;
-}
-.nav-fixed{
 	position: fixed;
 	left: 0;
 	top: 0;
 }
+nav div.row, nav div.row div div.row{
+	padding:0.1em inherit;
+} 
 a.nav-item{
 color:white;
  margin:0;
@@ -288,7 +293,7 @@ ul.minificha-tabs{
 
 /* ---------  owl carousel  ------------ */
 #owl-demo .item{
-  margin: 3px;
+  margin: 0.1em;
 }
 #owl-demo .item img{
   display: block;
@@ -305,4 +310,13 @@ ul.minificha-tabs{
 	background-color: rgba(255,255,255,1);
 	border:1px solid rgba(83, 98, 102,1);
 }
+.owl-buttons{display:none;}
 
+.homepage-bg .owl-controls.clickable{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+#owl-demo .item.home-item{
+	  margin: -0.1em;
+}

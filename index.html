@@ -5,7 +5,10 @@
 		<title>Project2</title>
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="responsive-height.css">
 		<link rel="stylesheet" href="grid.css">
+		<link href="external/owl-carousel/owl.carousel.css" rel="stylesheet">
+    	<link href="external/owl-carousel/owl.theme.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 		
 	</head>
@@ -13,23 +16,15 @@
 		
 		
 	<body>
-		<div class="row top-nav">
-				<div class="col-2of12 ">
-					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-				</div>
-				<div class="col-8of12 logo">
-					<a href="index.html" >Logo</a>
-				</div>
-				<div class="col-2of12  login-cart-nav">
-					<a class="login-link"href="sign-in/index.html">Sign In</a>
-					<a href="shopping-cart/index.html" class="shopping-cart"><i class="fa fa-shopping-cart"></i></a>
-				</div>
-			</div>
 		<nav>
 			
 			<div class="row">
-				<div class="col-2of12">
+				<div class="col-2of12 ">
+					<a href="index.html"><img class="logo"src="img/ora-logo.png" ></a>
+				</div>
+			<div class="col-8of12">
+				<div class="row">
+					<div class="col-2of12 offset-1of12">
 		          <a class="nav-item"href="products/index.html" class="nav-button">PRODUCTS</a>
 		        </div>
 
@@ -42,26 +37,37 @@
 		        </div>
 
 		        <div class="col-2of12">
-		          <a class="nav-item"href="about/index.html" class="nav-button">ABOUT US</a>
+		          <a class="nav-item"href="index.html" class="nav-button">ABOUT US</a>
 		        </div>
 
 		        <div class="col-2of12">
 		          <a class="nav-item"href="news/index.html" class="nav-button">NEWS</a>
 		        </div>
 
-		        <div class="col-2of12">
-		          <a class="nav-item"href="contact/index.html" class="nav-button">CONTACT US</a>
-		        </div>
+				</div>
+
+			</div>
+			<div class="col-2of12 login-cart-nav">
+					<a class="login-link"href="../sign-in/index.html">Sign In |</a>
+					<a href="../shopping-cart/index.html" class="shopping-cart"><i class="fa fa-shopping-cart"></i></a>
+				</div>
 	        </div>
+
+
         </nav>
-        <div class="container">
-	        <div class="row">
-	        	<h1>Homepage</h1>
-	        </div>
-	    </div>
+        </nav>
+        <div id="owl-demo" class="owl-carousel owl-theme homepage-bg">
+		    <div class="item home-item"><img src="img/homepage-first-bg.jpg" alt="eclips"></div>
+			<div class="item home-item"><img src="http://placehold.it/350x150" alt="GTA V"></div>
+			<div class="item home-item"><img src="http://placehold.it/350x150" alt="Mirror Edge"></div>
+		</div>
+	        
 
-
-	    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
-	    <script src="js/main.js"></script>
+ 		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+	    <script src="js/custom.js"></script>
+	    <script> 
+	    
+	    </script>
+    <script src="external/owl-carousel/owl.carousel.js"></script>
 	</body>
 </html>
