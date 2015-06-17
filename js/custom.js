@@ -1,20 +1,14 @@
 $( document ).ready(function() {
-    $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    	if (scroll>= 47){
-    		$('nav').addClass('nav-fixed');
-    	}
-    	else{
-    		$('nav').removeClass('nav-fixed');
-    	}
+    
+    $("#owl-demo").owlCarousel({
+        navigation : true, 
+        singleItem:true
     });
-   
- 
-  $("#owl-demo").owlCarousel({
- 
-      navigation : true, 
-      singleItem:true
- 
- 
-  });
-});
+    heightResponsive();
+        $(window).bind('resize', heightResponsive);
+    });
+function heightResponsive() {
+    var height = $(window).height();
+    $('#owl-demo .item img').css('height',height);
+}
+            
