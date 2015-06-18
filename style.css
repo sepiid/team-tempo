@@ -147,6 +147,7 @@ p.text-input {
 	position: relative;
 	  margin: 1.5em 0em;
 }
+
 input {
 	background: transparent;
 	width: 80%;
@@ -155,6 +156,13 @@ input {
 	border: 1px solid #ccc;
 	transition: border-left 0.5s ease-out;
 	-webkit-transition: border-left 0.5s ease-out;
+}
+p.contact input{
+	width: 100%;
+}
+p.contact textarea{
+	width: 100%;
+	min-height:7em;
 }
 label {
 	position: absolute;
@@ -209,6 +217,7 @@ a.text-link:hover, a.text-link:focus {
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 	-webkit-transition: background-color 0.5s ease-out;
+	float:right;
 }
 .submit-btn:hover, .submit-btn:focus {
 	background-color: rgba(135, 158, 173, 0.4);
