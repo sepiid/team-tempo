@@ -363,4 +363,19 @@ ul.minificha-tabs{
   	top: 0;
   	color: rgb(223, 81, 81);
 }
+/* ---------social icons------------ */
+a.social {
+	font-size: 3em;
+	color: #FFFFFF;
+	background-color: #4b4d4d;
+	width: 2em;
+	height: 2em;
+	padding-top: 0.5em;
+	border-radius: 1em;
+	margin: 0.2em;
+	display: inline-block;
+}
+.social-icons{
+	padding:6em 0 2em;
+}
 
