@@ -345,6 +345,7 @@ z-index: 1;
 .minificha-tabs .tab-content {
 	opacity: 0;
 	padding: 10px;
+	text-align: left;
 	-webkit-transition: opacity .5s ease-out;
   	transition: opacity .5s ease-out;
 }
@@ -498,3 +499,22 @@ a.social:hover{
 	background-position:center;
 }
 
+/* ---------video-bg------------ */
+.about-section{
+	padding-top:5em;
+}
+video#bgvid {
+	opacity: 0.3;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	background: url() no-repeat;
+	background-size: cover;
+}
