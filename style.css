@@ -496,8 +496,8 @@ ul.minificha-tabs{
 	display:none;
 }
 #stores-body{
-	background-image:url('img/stores-bg.jpg');
-	background-color:rgb(209, 209, 209);
+	/*background-image:url('img/stores-bg.jpg');*/
+	background-color:white
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
