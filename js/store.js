@@ -49,7 +49,32 @@ $( document ).ready(function() {
    $('#nanyang').click(function(){
    		$('.nanyang-store').show('slow');
    });
-
+   $(window).resize(function(){
+      $('.vancouver-store').css({
+         left:$('#vancouver').position().left+ 10,
+         top:$('#vancouver').position().top
+      });
+      $('.pittsburgh-store').css({
+            left:$('#pittsburgh').position().left+ 10,
+            top:$('#pittsburgh').position().top
+      });
+       $('.balma-store').css({
+            left:$('#balma').position().left+ 10,
+            top:$('#balma').position().top
+      });
+      $('.amsterdam-store').css({
+            left:$('#amsterdam').position().left+ 10,
+            top:$('#amsterdam').position().top
+      });
+      $('.frankfurt-store').css({
+            left:$('#frankfurt').position().left+ 10,
+            top:$('#frankfurt').position().top
+      });
+      $('.nanyang-store').css({
+            left:$('#nanyang').position().left+ 10,
+            top:$('#nanyang').position().top
+      });
+   });
 
    
 });
