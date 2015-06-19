@@ -374,9 +374,15 @@ a.social {
 	border-radius: 1em;
 	margin: 0.2em;
 	display: inline-block;
+	-webkit-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+	text-decoration: none
 }
 .social-icons{
 	padding:6em 0 2em;
+}
+a.social:hover{
+	background-color: #A9BAC4;;
 }
 #contact-body{
 	background-image:url('http://www.ziiiro.com/wp-content/uploads/2015/04/banner-legs.jpg');
