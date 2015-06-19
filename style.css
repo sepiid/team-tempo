@@ -88,10 +88,21 @@ a{
 	margin-bottom: 2em;
 	
 }
+.line-address{
+border-bottom: .1em solid #919191 ;
+padding: 2em;
+color: #919191;
+}
 
-.bg-img{
-	background-image: url("contact.jpg");
-	width: 100%;
+.address{
+	font-size: 1em;
+	color: #919191;
+
+}
+.country{
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .1em;
 }
 
 nav{
