@@ -436,7 +436,21 @@ ul.minificha-tabs{
 
 
 
-/* ---------  ------------ ------------ */
+/* ---------  second about us design ------------ */
+
+.timeline{
+	text-align: right;
+
+}
+
+.year2001{
+margin-bottom: 5em;
+}
+.year2009{
+	  margin-top: 6.4em;
+  margin-bottom: 3.2em;
+}
+}
 
 
 
@@ -561,7 +575,7 @@ a.social:hover{
 
 /* ---------video-bg------------ */
 .about-section{
-	padding-top:5em;
+	padding-top:2em;
 	color:rgb(52, 52, 52);
 	background-color:rgb(255,255,255,0.3);
 	text-align: left;
