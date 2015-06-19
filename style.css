@@ -190,6 +190,19 @@ a.nav-item.small-nav-item{
 	display:inline-block;
 	margin:2em 0;
 }
+.login-small{
+	
+	margin-top:1.4em;
+	
+}
+.login-small a{
+	padding-top:1.4em;
+	border-top: 1px solid white;
+}
+.shopping-small{
+	margin-top:1.4em;
+}
+
 @media (max-width: 48em){
 	.big-size-nav{
 		display:none;
