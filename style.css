@@ -46,6 +46,14 @@ a{
 	margin:auto;
 	margin-top: -0.4em
 }
+.social-media-logo{
+	width:5.5em;
+	margin-top:1.5em;
+	padding-right:.4em;
+	padding-left: .4em;
+	padding-bottom: 3em;
+
+}
 .shopping-cart{
 	color: white;
 	font-size: 2em;
