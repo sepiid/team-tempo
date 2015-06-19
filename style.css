@@ -576,3 +576,45 @@ video#bgvid {
 	background: url() no-repeat;
 	background-size: cover;
 }
+
+/* ---------product------------ */
+#owl-demo{
+	position: absolute;
+  	bottom: 3em;
+}
+.product-detail{
+	
+	height:100%;
+	width:100%;
+	
+}
+
+.gravity-image, .second-image{
+	background-color: white;
+	width:50%;
+	height: 100%;
+	position:absolute;
+	left:-50em;
+	bottom:0;
+	z-index: 10000;
+}
+.gravity-detail, .second-detail{
+	background-color: rgb(83, 98, 102);
+	padding: 0em 3em;
+	color:white;
+	width:50%;
+	height: 100%;
+	position:absolute;
+	right:-50em;
+	bottom:0;
+	z-index: 10000;
+}
+a.close-detail {
+  color: white;
+  font-size: 2em;
+  float: right;
+  padding-top:1em;
+}	
+.detail-content {
+  padding-top: 4em;
+}

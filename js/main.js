@@ -5,27 +5,37 @@ $( document ).ready(function() {
       itemsDesktopSmall : [979,3]
  
   });
-    function itemSlide ( element, properties,properties2, options, positionX){
-    	element.css({
-    		visibility:'hidden',
-    		position:'relative'
-    	});
-    	
-    	element.css({
-    		visibility: 'visible',
-	        position: 'absolute',
-	        left: positionX
-	        
-    	}).animate(properties, options).delay(500).addClass('active').animate(properties2, options);
+    $('.close-detail').click(function() {
 
-	}
-	 
-	$( ".owl-item" ).click(function() {
-		var positionX = $(this).position().left;
-    	var props = { backgroundColor: '#fff','z-index':'10', 'left' : 0};
-    	var props2={width:'25%',paddingRight:'18.75%' }
-		var options = {'duration': 500};
-		itemSlide($(this), props,props2, options,positionX);
-		$('.owl-controls').animate({opacity:0});
-	});
+        $('.product-image').animate({
+          left:'-50em'
+        },2000 );
+        $('.product-detail').animate({
+          right:'-50em'
+        },2000 );
+
+    });
+    $('#gravity').click(function() {
+
+        $('.gravity-image').animate({
+          left:0
+        },2000 );
+        $('.gravity-detail').animate({
+          right:0
+        },2000 );
+
+    });
+    
+    $('.second-watch').click(function() {
+
+        $('.second-image').animate({
+          left:0
+        },2000 );
+        $('.second-detail').animate({
+          right:0
+        },2000 );
+
+    });
+    
+    
 });
