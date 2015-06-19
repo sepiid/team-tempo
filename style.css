@@ -83,6 +83,17 @@ a{
 .middle{
 	text-align: center;
 }
+
+.title{
+	margin-bottom: 2em;
+	
+}
+
+.bg-img{
+	background-image: url("contact.jpg");
+	width: 100%;
+}
+
 nav{
 	text-align: center;
 	background-color:rgba(0,0,0,0.7);
@@ -287,9 +298,9 @@ z-index: 1;
 .minificha-tabs input[type=radio]:checked ~ label {
   
 	-webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-	background-color: #262626;
-  color: white
+	transition: background-color 0.5s ease-out;
+	background-color: #5B5A5B;
+  	color: white
 }
 .minificha-tabs input[type=radio]:checked ~ .tab-content {
 	-webkit-transition: opacity .5s ease-out;
@@ -418,7 +429,7 @@ a.social:hover{
 	background-color: #A9BAC4;
 }
 #contact-body{
-	background-image:url('http://www.ziiiro.com/wp-content/uploads/2015/04/banner-legs.jpg');
+	background-image:url('img/contact.jpg');
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
