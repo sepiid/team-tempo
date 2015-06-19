@@ -346,3 +346,21 @@ ul.minificha-tabs{
 .billing-info{
 	  padding: 0.3em 0;
 }
+/* ---------  store  ------------ */
+.store{
+	position: absolute;
+	background-color: rgb(255, 255, 255);
+	padding: 0.5em 1em;
+	border:1px solid rgb(223, 81, 81);;
+	border-left: 6px solid rgb(223, 81, 81);;
+}
+.store-point{
+	cursor:pointer;
+}
+.close-store{
+	position: absolute;
+  	right: 10px;
+  	top: 0;
+  	color: rgb(223, 81, 81);
+}
+
