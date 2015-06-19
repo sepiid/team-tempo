@@ -378,4 +378,16 @@ a.social {
 .social-icons{
 	padding:6em 0 2em;
 }
+#contact-body{
+	background-image:url('http://www.ziiiro.com/wp-content/uploads/2015/04/banner-legs.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
 
