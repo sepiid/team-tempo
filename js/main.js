@@ -19,7 +19,7 @@ $( document ).ready(function() {
     	}).animate(properties, options).delay(500).addClass('active').animate(properties2, options);
 
 	}
-	  
+	 
 	$( ".owl-item" ).click(function() {
 		var positionX = $(this).position().left;
     	var props = { backgroundColor: '#fff','z-index':'10', 'left' : 0};

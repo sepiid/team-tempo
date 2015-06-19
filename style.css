@@ -126,6 +126,62 @@ a.nav-item:hover:before, a.nav-item:hover:after{
 	width:100%;
 }
 
+.small-size-nav{
+		display:none;
+
+	}
+.small-size-nav a
+{
+	color:white;
+	float:right;
+	display:inline-block;
+	padding:0.2em 1em;
+	border:1px solid white;
+	margin: 0 0.5em;
+	border-radius:0.2em;
+	cursor:pointer;
+}
+.navigation-small-size {
+  margin: auto;
+  margin-top: 5.6em;
+  background-color:rgba(0,0,0,0.8);
+  z-index: 10000;
+  position: absolute;
+  width: 8em;
+  right:0;
+  text-align: center;
+  height: 0%;
+  -webkit-transition: height 0.5s ease-out;
+  transition: height 0.5s ease-out;
+	
+
+}
+.navigation-small-size-open{
+	-webkit-transition: height 0.5s ease-out;
+  	transition: height 0.5s ease-out;
+	height:100%;
+	display:block;
+	
+}
+a.nav-item.small-nav-item{
+	
+	display:inline-block;
+	margin:2em 0;
+}
+@media (max-width: 48em){
+	.big-size-nav{
+		display:none;
+	}
+	.small-size-nav{
+		display:inline-block;
+	}
+	.logo{
+		margin-left:0.5em;
+	}
+	nav{
+		position: absolute;
+	}
+}
 /* ---------  color  ------------ */
 .white{
 	color:#fff;
@@ -359,9 +415,10 @@ ul.minificha-tabs{
 }
 .close-store{
 	position: absolute;
-  	right: 10px;
+  	right: 0.8em;
   	top: 0;
   	color: rgb(223, 81, 81);
+  	cursor;pointer;
 }
 .store-list{
 	display:none;
