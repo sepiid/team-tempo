@@ -8,21 +8,21 @@ $( document ).ready(function() {
     $('.close-detail').click(function() {
 
         $('.product-image').animate({
-          left:'-50em'
-        },2000 );
+          left:'-70em'
+        },500 );
         $('.product-detail').animate({
-          right:'-50em'
-        },2000 );
+          right:'-70em'
+        },500 );
 
     });
     $('#gravity').click(function() {
 
         $('.gravity-image').animate({
           left:0
-        },2000 );
+        },500 );
         $('.gravity-detail').animate({
           right:0
-        },2000 );
+        },500 );
 
     });
     
@@ -30,10 +30,10 @@ $( document ).ready(function() {
 
         $('.second-image').animate({
           left:0
-        },2000 );
+        },500 );
         $('.second-detail').animate({
           right:0
-        },2000 );
+        },500 );
 
     });
     
