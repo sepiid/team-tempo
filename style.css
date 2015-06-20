@@ -5,16 +5,12 @@ margin:auto;
 overflow-x:hidden;
 }
 
-@media(min-width: 81em) {
-	.row {
-		padding-left: 4em;
-		padding-right: 4em; 
+@media(min-width: 57em) {
+	.container {
+		width:57em;
 	}
 }
-@media(max-width: 74em){
-	.row{padding-left:2em;
-		padding-right: 2em;}
-}
+
 @media(max-width: 53em) {
 	.screen-sm.col-2of12{
 		width:100%;
@@ -29,7 +25,6 @@ a{
 .container{
 	margin: auto ;
 	padding-top: 6em;
-	max-width: 81em;
 }
 .text-center{
 	text-align: center;
