@@ -119,9 +119,7 @@ nav {
 	padding: 2.2em 0 1.5em;
 	width: 100%;
 	z-index: 1000;
-	position: absolute;
-	left: 0;
-	top: 0;
+	
 }
 
 a.nav-item {
@@ -161,19 +159,18 @@ a.nav-item:hover:before, a.nav-item:hover:after {
 	display: none;
 }
 .small-size-nav a {
-	color: white;
+	
 	float: right;
 	display: inline-block;
 	padding: 0.2em 1em;
-	border: 1px solid white;
+	border: 1px solid rgb(75, 75, 75);
 	margin: 0 0.5em;
 	border-radius: 0.2em;
 	cursor: pointer;
 }
 .navigation-small-size {
 	margin: auto;
-	margin-top: 5.6em;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(255,255,255,0.8);
 	z-index: 10000;
 	position: absolute;
 	width: 8em;
@@ -191,7 +188,7 @@ a.nav-item:hover:before, a.nav-item:hover:after {
 }
 a.nav-item.small-nav-item {
 	display: inline-block;
-	margin: 1.4em 0;
+	margin: 35% 0;
 }
 .login-small {
 	margin-top: 1.4em;
@@ -216,9 +213,7 @@ a.nav-item.small-nav-item {
 .logo {
 	margin-left: 0.5em;
 }
-nav {
-	position: absolute;
-}
+
 }
 /* ---------  color  ------------ */
 .white {
