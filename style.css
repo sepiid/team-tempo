@@ -460,10 +460,8 @@ ul.minificha-tabs {
 	position: absolute;
 	background-color: rgb(255, 255, 255);
 	padding: 0.5em 1em;
-	border: 1px solid rgb(223, 81, 81);
-	;
-	border-left: 6px solid rgb(223, 81, 81);
-	;
+	border: 1px solid rgb(75, 75, 75);
+  	border-left: 6px solid rgb(75, 75, 75);
 }
 .store-point {
 	cursor: pointer;
@@ -472,25 +470,14 @@ ul.minificha-tabs {
 	position: absolute;
 	right: 0.8em;
 	top: 0;
-	color: rgb(223, 81, 81);
+	color: rgb(75, 75, 75);
  cursor;
 pointer;
 }
 .store-list {
 	display: none;
 }
-#stores-body {
-	/*background-image:url('img/stores-bg.jpg');*/
-	background-color:white  background-repeat:no-repeat;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-}
+
 
 @media (max-width: 48em) {
 #stores-body {
