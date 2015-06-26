@@ -9,10 +9,10 @@ $( document ).ready(function() {
     $('.close-detail').click(function() {
         
             $('.product-image').removeClass('active').animate({
-            left:'-70em'
+            left:'-100em'
           },500 );
           $('.product-details').removeClass('active').animate({
-            right:'-70em'
+            right:'-100em'
           },500 );
         
          
