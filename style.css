@@ -555,7 +555,7 @@ video#bgvid {
 	height: 100%;
 	width: 100%;
 }
-.gravity-image, .second-image {
+.product-image {
 	background-color: white;
 	width: 50%;
 	height: 100%;
@@ -564,7 +564,7 @@ video#bgvid {
 	bottom: 0;
 	z-index: 10000;
 }
-.gravity-detail, .second-detail {
+ .product-details {
 	background-color: rgb(83, 98, 102);
 	padding: 0em 3em;
 	color: white;
@@ -575,6 +575,7 @@ video#bgvid {
 	bottom: 0;
 	z-index: 10000;
 }
+
 a.close-detail {
 	color: white;
 	font-size: 2em;
