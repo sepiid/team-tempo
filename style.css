@@ -28,7 +28,7 @@ a {
 }
 .container {
 	margin: auto;
-	padding-top: 4.5em;
+	padding-top: 1.5em;
 }
 .text-center {
 	text-align: center;
@@ -527,7 +527,7 @@ a.social {
 	background-color: #4b4d4d;
 	width: 2em;
 	height: 2em;
-	padding-top: 0.5em;
+	padding-top: 0.3em;
 	border-radius: 1em;
 	margin: 0.2em;
 	display: inline-block;
