@@ -5,9 +5,11 @@ body {
 }
 
 @media(min-width: 57em) {
-.container {
-	width: 57em;
-}
+	.container {
+		width: 57em;
+	}
+	
+
 }
 
 @media(max-width: 53em) {
@@ -210,16 +212,34 @@ a.nav-item.small-nav-item {
 }
 
 @media (max-width: 48em) {
-.big-size-nav {
-	display: none;
+	.big-size-nav {
+		display: none;
+	}
+	.small-size-nav {
+		display: inline-block;
+	}
+	.logo {
+		margin-left: 0.5em;
+	}
+	
 }
-.small-size-nav {
-	display: inline-block;
-}
-.logo {
-	margin-left: 0.5em;
-}
-
+@media (max-width: 57em){
+	.col-6of12.product-image, .col-6of12.product-details{
+		width:100%;
+	}
+	.col-6of12.product-image{	
+	  top: 0;
+	  height: 50%;
+	}
+	.col-6of12.product-image img{
+		width: 50%;
+		  margin: auto;
+		  display: block;
+	}
+	.col-6of12.product-details{
+	  	top:50%
+	}
+	
 }
 /* ---------  color  ------------ */
 .white {
@@ -451,12 +471,12 @@ ul.minificha-tabs {
 .owl-prev {
 	position: absolute !important;
 	left: 0;
-	top: 2em;
+	top: 34%;
 }
 .owl-next {
 	position: absolute !important;
 	right: 0;
-	top: 2em;
+	top: 34%;
 }
 .billing-info {
 	padding: 0.3em 0;
@@ -596,10 +616,11 @@ a.close-detail {
 }
 
 @media (max-width: 48em) {
-.detail-conten div.row {
+.detail-content div.row {
 	padding: 0;
 }
 }
+
 .colors {
 	padding: 2em 0.3em;
 }
