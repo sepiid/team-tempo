@@ -20,6 +20,7 @@ body {
 	padding-left: 1em;
 	padding-right: 1em;
 }
+
 }
 a {
 	text-decoration: none;
@@ -221,7 +222,17 @@ a.nav-item.small-nav-item {
 	.logo {
 		margin-left: 0.5em;
 	}
+	.ora{
+		width:50%;
+		margin:0;
+	}
 	
+}
+@media (max-width: 30em) {
+	.ora{
+		width:100%;
+		margin:0;
+	}
 }
 @media (max-width: 57em){
 	.col-6of12.product-image, .col-6of12.product-details{
@@ -615,11 +626,6 @@ a.close-detail {
 	padding: 0;
 }
 
-@media (max-width: 48em) {
-.detail-content div.row {
-	padding: 0;
-}
-}
 
 .colors {
 	padding: 2em 0.3em;
