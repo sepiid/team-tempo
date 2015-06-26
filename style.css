@@ -88,6 +88,10 @@ a {
 	font-size: .7em;
 	padding: 0 2em;
 }
+
+.explanation2{
+	font-size: .8em;
+}
 /* ---------  navigation  ------------ */
 .top-nav {
 	padding-top: 0.5em;
@@ -630,3 +634,26 @@ a.close-detail {
 .colors {
 	padding: 2em 0.3em;
 }
+
+.about-tab label{
+	width:20%;
+	border: 0px;
+	color:red;
+}
+.about-tab input[type=radio]:checked ~ label{
+	background-color: transparent;
+	color:blue;
+}
+.minificha-tabs .about-tab:nth-child(2) label {
+  margin-left: 20%;
+}
+.minificha-tabs .about-tab:nth-child(3) label {
+  margin-left: 40%;
+}
+.minificha-tabs .about-tab:nth-child(4) label {
+  margin-left: 60%;
+}
+.minificha-tabs .about-tab:nth-child(5) label {
+  margin-left: 80%;
+}
+
