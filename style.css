@@ -465,6 +465,7 @@ a.text-link:hover, a.text-link:focus {
 ul.minificha-tabs {
 	list-style-type: none;
 	min-height: 20em;
+	padding: 0;
 }
 .product-listing{
 	padding:5em 0em;
