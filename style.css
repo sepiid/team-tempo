@@ -464,6 +464,7 @@ a.text-link:hover, a.text-link:focus {
 }
 ul.minificha-tabs {
 	list-style-type: none;
+	min-height: 20em;
 }
 /* ---------  second about us design ------------ */
 
