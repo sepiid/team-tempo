@@ -466,6 +466,9 @@ ul.minificha-tabs {
 	list-style-type: none;
 	min-height: 20em;
 }
+.product-listing{
+	padding:5em 0em;
+}
 /* ---------  second about us design ------------ */
 
 .timeline {
@@ -552,6 +555,7 @@ svg {
 .store-list {
 	display: block;
 }
+.product-listing{padding:0;}
 }
 /* ---------social icons------------ */
 a.social {
@@ -622,6 +626,7 @@ video#bgvid {
 	left: -100em;
 	bottom: 0;
 	z-index: 10000;
+	display:none;
 }
  .product-details {
 	background-color: rgb(83, 98, 102);
@@ -633,6 +638,7 @@ video#bgvid {
 	right: -100em;
 	bottom: 0;
 	z-index: 10000;
+	display:none;
 }
 
 a.close-detail {
