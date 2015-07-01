@@ -661,11 +661,11 @@ a.close-detail {
 .about-tab label{
 	width:20%;
 	border: 0px;
-	color:red;
+	color:#BCBCBC;
 }
 .about-tab input[type=radio]:checked ~ label{
 	background-color: transparent;
-	color:blue;
+	color:#5B5A5B;
 }
 .minificha-tabs .about-tab:nth-child(2) label {
   margin-left: 20%;
@@ -680,3 +680,6 @@ a.close-detail {
   margin-left: 80%;
 }
 
+.about-explanation{
+margin-left: 7%;
+}
