@@ -111,8 +111,8 @@ $( document ).ready(function() {
       document.getElementById("gravity-blue-watch").src="../img/gravity-blue.jpg";
       document.getElementById("gravity-blue-angle-watch").src="../img/gravity-blue-angle.jpg";
       document.getElementById("gravity-blue-side-watch").src="../img/gravity-blue-side.jpg";
-      $('#gravity-gray').addClass('color-selected');
-      $('#gravity-blue').removeClass('color-selected');
+      $('#gravity-blue').addClass('color-selected');
+      $('#gravity-gray').removeClass('color-selected');
       $('#gravity-green').removeClass('color-selected');
 
     });
