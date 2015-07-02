@@ -458,7 +458,7 @@ a.text-link:hover, a.text-link:focus {
 	transition: opacity .5s ease-out;
 	opacity: 1;
 	left: 0;
-	padding-top: 5em;
+
 }
 .tab-content {
 	font-size: 1rem;
@@ -700,25 +700,17 @@ margin-top: 4em;
 
 
 
+.colors a img{
+	
+  border-radius: 7em;
+}
 .colors a{
-	padding: 1em 1.7em;
-  border-radius: 2em;
-}
-a#gravity-blue {
-  background-color: rgb(82, 193, 234);
+  opacity:0.4;
+  cursor: pointer;
   
 }
-
-a#gravity-gray {
-  background-color: rgb(132, 132, 132);
-  
-}
-a#gravity-green {
-  background-color: rgb(153, 193, 71);
-  
-}
-a.color-selected{
-	border: 4px solid white;
+#gravity-blue{
+	opacity: 1;
 }
 
 
