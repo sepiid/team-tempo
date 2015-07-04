@@ -558,7 +558,9 @@ pointer;
 	display: none;
 }
 
-
+svg {
+	margin-top:3em;
+}
 @media (max-width: 48em) {
 svg {
 	display: none;
