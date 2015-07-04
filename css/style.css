@@ -605,7 +605,7 @@ a.social:hover {
 	background-color: #A9BAC4;
 }
 #contact-body {
-	background-image: url('img/contact.jpg');
+	background-image: url('../img/contact.jpg');
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
