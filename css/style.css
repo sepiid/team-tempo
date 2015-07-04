@@ -28,7 +28,8 @@ a {
 	cursor: pointer;
 }
 .container {
-	margin: auto;
+	margin: auto auto 5em;
+
 }
 .text-center {
 	text-align: center;
@@ -351,7 +352,7 @@ textarea:focus ~ label:after, textarea.show ~ label:after {
 
 a.text-link {
 	color: #879EAD;
-	font-size: 1em;
+	font-size: .8em;
 	text-decoration: none;
 	transition: color 0.5s ease-out;
 	-webkit-transition: color 0.5s ease-out;
@@ -792,5 +793,6 @@ input.quantity{
 }
 .continue-shopping{
 	float:none;
+
 }
 
