@@ -271,7 +271,7 @@ a.nav-item.small-nav-item {
 /* ---------  Heading  ------------ */
 h1 {
 	font-size: 1.8rem;
-	font-weight: 200;
+	font-weight: 500;
 	letter-spacing: 0.08em;
 	color: rgb(75, 75, 75);
 
@@ -579,6 +579,9 @@ svg {
 }
 }
 
+.map{
+	margin-top: 3em;
+}
 /* ---------social icons------------ */
 a.social {
 	font-size: 1.6em;
