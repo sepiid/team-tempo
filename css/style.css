@@ -216,25 +216,6 @@ a.nav-item.small-nav-item {
 	display: inline-block;
 }
 
-@media (max-width: 54em) {
-	.big-size-nav {
-		display: none;
-	}
-	.small-size-nav {
-		display: inline-block;
-	}
-	.logo {
-		margin-left: 0.5em;
-	}
-	.ora{
-		width:50%;
-		margin:0;
-	}
-	.owl-buttons{
-		display:none;
-	}
-	
-}
 @media (min-width: 54em){
 	.navigation-small-size{
 		display:none;
@@ -614,7 +595,7 @@ a.social:hover {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-position: center;
+	background-position: left;
 }
 /* ---------video-bg------------ */
 .about-section {
@@ -757,5 +738,33 @@ margin-top: 4em;
 #gravity-blue{
 	opacity: 1;
 }
+@media (max-width: 54em) {
+	.big-size-nav {
+		display: none;
+	}
+	.small-size-nav {
+		display: inline-block;
+	}
+	.logo {
+		margin-left: 0.5em;
+	}
+	.ora{
+		width:50%;
+		margin:0;
+	}
+	.owl-buttons{
+		display:none;
+	}
+	.contact-rows{
+		width:100%;
+	}
+	.contact-rows.offset-2of12, .contact-rows.offset-4of12{
+		margin:0;
+	}
+	#contact-body {
+  	background-image:none;
+  	}
 
+	
+}
 
