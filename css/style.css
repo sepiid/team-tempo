@@ -231,6 +231,14 @@ a.nav-item.small-nav-item {
 		width:100%;
 		margin:0;
 	}
+	.product-cart-summary{
+		width:100%;
+		display:block;
+	}
+	.product-cart-summary2{
+		width:50%;
+		
+	}
 }
 @media (max-width: 57em){
 	.col-6of12.product-image, .col-6of12.product-details{
@@ -770,7 +778,13 @@ margin-top: 4em;
 	#contact-body {
   	background-image:none;
   	}
-
+  	.totals{
+  		width:100%;
+  		margin:0;
+  	}
+  	.explanation2{
+  		display:none;
+  	}
 	
 }
 .vision{
@@ -795,4 +809,7 @@ input.quantity{
 	float:none;
 
 }
-
+.cart-images{
+	width:50%;
+	display:block;
+}
