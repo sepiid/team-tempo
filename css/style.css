@@ -560,10 +560,6 @@ pointer;
 
 
 @media (max-width: 48em) {
-#stores-body {
-	background-image: none;
-	background-color: rgb(209, 209, 209);
-}
 svg {
 	display: none;
 }
