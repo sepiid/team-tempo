@@ -145,7 +145,7 @@ a.nav-item {
 	cursor: pointer;
 	font-size: 0.8em;
 	font-weight: 300;
-	letter-spacing: 1px;
+	letter-spacing: 0.05em;
 	cursor: pointer;
 }
 a.nav-item:before, a.nav-item:after {
@@ -286,7 +286,7 @@ input {
 	background: transparent;
 	width: 80%;
 	height: 3.2em;
-	padding-left: 5px;
+	padding-left: 0.1em;
 	border: 1px solid #ccc;
 	transition: border-left 0.5s ease-out;
 	-webkit-transition: border-left 0.5s ease-out;
@@ -301,14 +301,14 @@ p.contact textarea {
 textarea {
 	background: transparent;
  border:border: 1px solid #ccc;
-	padding-left: 5px;
+	padding-left: 0.1em;
 	transition: border-left 0.5s ease-out;
 	-webkit-transition: border-left 0.5s ease-out;
 }
 label {
 	position: absolute;
-	left: 10px;
-	top: 9px;
+	left: 0.8em;
+	top: 1.2em;
 	color: #879EAD;
 	font-size: 0.8em;
 	transition-property: top, left;
@@ -317,7 +317,7 @@ label {
 	z-index: -10;
 }
 input:focus ~ label, input.show ~ label {
-	top: -20px;
+	top: -1.6em;
 	left: 0;
 	color: rgba(135, 158, 173, 0.7);
 	font-size: 0.7em;
@@ -331,7 +331,7 @@ input:focus ~ label:after, input.show ~ label:after {
 	content: ":";
 }
 textarea:focus ~ label, textarea.show ~ label {
-	top: -20px;
+	top: -1.6em;
 	left: 0;
 	color: rgba(135, 158, 173, 0.7);
 	font-size: 0.7em;
@@ -411,7 +411,7 @@ a.text-link:hover, a.text-link:focus {
 	background-color: transparent;
 	border: 1px solid white;
 	color: white;
-	padding: 10px;
+	padding: 0.8em;
 	text-align: center;
 	z-index: 1;
 }
@@ -434,7 +434,7 @@ a.text-link:hover, a.text-link:focus {
 }
 .pill-tabs .tab-content {
 	opacity: 0;
-	padding: 10px;
+	padding: 0.8em;
 	text-align: left;
 	-webkit-transition: opacity .5s ease-out;
 	transition: opacity .5s ease-out;
