@@ -787,3 +787,7 @@ input.quantity{
 .product-cart{
 	border-bottom:1px solid rgba(83,98,102,0.6);
 }
+
+.continue-shopping{
+	float:none;
+}
