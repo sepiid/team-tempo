@@ -547,20 +547,19 @@ ul.minificha-tabs {
 	cursor: pointer;
 }
 .close-store {
-	position: absolute;
-	right: 0.8em;
-	top: 0;
-	color: rgb(75, 75, 75);
- cursor;
-pointer;
+	  position: absolute;
+  right: 0.8em;
+  top: 0.8em;
+  color: rgb(75, 75, 75);
+  margin: 0;
+  line-height: 0;
+  cursor: pointer;
 }
 .store-list {
 	display: none;
 }
 
-svg {
-	margin-top:3em;
-}
+
 @media (max-width: 48em) {
 svg {
 	display: none;
@@ -579,6 +578,10 @@ svg {
 
 .map{
 	margin-top: 3em;
+}
+
+.store-adress p{
+font-size: .8em;
 }
 /* ---------social icons------------ */
 a.social {
