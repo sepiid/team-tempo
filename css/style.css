@@ -394,13 +394,14 @@ a.text-link:hover, a.text-link:focus {
 	background-color: rgba(135, 158, 173, 0.4);
 }
 .buy-btn {
-	background-color: rgba(135, 158, 173, 0.7);
-	border: 1px solid #879EAD;
+	background-color: transparent;;
+	border: 1px solid white;
 	color: #FFF;
 	display: inline-block;
-	padding: 0.8em 1.25em;
-	font-weight: 300;
-	font-size: 0.9em;
+	padding: 0.5em 1.7em;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	font-size: 1em;
 	text-decoration: none;
 	transition: background-color 0.5s ease-out;
 	-webkit-transition: background-color 0.5s ease-out;
@@ -677,11 +678,25 @@ a.close-detail {
 
 .product-heading{
 	text-align: center;
-  margin-top: -12em;
+  margin-top: -10em;
+  margin-bottom: 1em;
   color:white;
+}
+.side-headings h1{
+	  margin-left: -1em;
 }
 .product-heading h1{
 	color:white;
+	  margin-bottom: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.product-heading p{
+	margin:0;
+}
+p.shop{
+	  margin-top: 0.4em;
 }
 .colors {
 	padding: 2em 0.3em;
