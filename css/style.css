@@ -256,7 +256,8 @@ a.nav-item.small-nav-item {
 	.col-6of12.product-details{
 	  	top:50%
 	}
-	
+	.recently-recommended{display:none;}
+	.address-fields{width:50%;}
 }
 /* ---------  color  ------------ */
 .white {
@@ -296,7 +297,7 @@ p.text-input {
 }
 input {
 	background: transparent;
-	width: 80%;
+	width: 100%;
 	height: 3.2em;
 	padding-left: 0.1em;
 	border: 1px solid #ccc;
@@ -527,7 +528,7 @@ ul.pill-tabs {
   margin-bottom: 4em;
 }
 .billing-info {
-	padding: 0.3em 0;
+	padding: 0.64em 0;
 }
 /* ---------  store  ------------ */
 .store {
@@ -568,6 +569,7 @@ svg {
 .specs{
 	width:100%;
 }
+.address-fields{width:100%;}
 }
 
 .map{
@@ -813,3 +815,11 @@ input.quantity{
 	width:50%;
 	display:block;
 }
+
+.address-fields, .recently-recommended{
+	padding:0 1em;
+}
+.recently-recommended{
+	border-left:1px solid rgba(83,98,102,0.6);
+	padding-bottom:9em;
+	}
