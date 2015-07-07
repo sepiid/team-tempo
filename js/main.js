@@ -6,6 +6,25 @@ $( document ).ready(function() {
       itemsDesktopSmall : [979,3]
  
   });
+
+  $('.product-details').css({height:window.height});
+  $(window).resize(function() {
+    $('.product-details').css({height:window.height});
+  });
+     $(document).ready(function() {
+ 
+  $("#owl-demo2").owlCarousel({
+ 
+      navigation : true, 
+      slideSpeed : 500,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+     
+ 
+  });
+ 
+});
     var width= $( window ).width()/16;
     $('.close-detail').click(function() {
         
@@ -98,7 +117,7 @@ $( document ).ready(function() {
     
     });
     $('#gravity-green').click(function() {
-      document.getElementById("gravity-blue-watch-big").src="../img/gravity-green.jpg";
+     
       document.getElementById("gravity-blue-watch").src="../img/gravity-green.jpg";
       document.getElementById("gravity-blue-angle-watch").src="../img/gravity-green-angle.jpg";
       document.getElementById("gravity-blue-side-watch").src="../img/gravity-green-side.jpg";
@@ -114,7 +133,7 @@ $( document ).ready(function() {
 
     });
     $('#gravity-blue').click(function() {
-      document.getElementById("gravity-blue-watch-big").src="../img/gravity-blue.jpg";
+      
       document.getElementById("gravity-blue-watch").src="../img/gravity-blue.jpg";
       document.getElementById("gravity-blue-angle-watch").src="../img/gravity-blue-angle.jpg";
       document.getElementById("gravity-blue-side-watch").src="../img/gravity-blue-side.jpg";
@@ -130,7 +149,7 @@ $( document ).ready(function() {
 
     });
     $('#gravity-gray').click(function() {
-      document.getElementById("gravity-blue-watch-big").src="../img/gravity-gray.jpg";
+     
       document.getElementById("gravity-blue-watch").src="../img/gravity-gray.jpg";
       document.getElementById("gravity-blue-angle-watch").src="../img/gravity-gray-angle.jpg";
       document.getElementById("gravity-blue-side-watch").src="../img/gravity-gray-side.jpg";
