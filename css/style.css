@@ -466,6 +466,7 @@ ul.pill-tabs {
 
 .timeline {
 	text-align: right;
+	margin-top: 4em;
 }
 .year2001 {
 	margin-bottom: 5em;
@@ -717,9 +718,7 @@ p.shop{
 margin-left: 7%;
 }
 
-.timeline{
-margin-top: 4em;
-}
+
 
 .delete{
 	
@@ -821,7 +820,9 @@ input.quantity{
 }
 
 @media (max-width: 57em){
-	
+	.timeline{
+		display:none;
+	}
 	.recently-recommended{display:none;}
 	.address-fields{width:50%;}
 	.col-6of12.product-image, .col-6of12.product-details{
@@ -840,3 +841,4 @@ input.quantity{
 	.col-6of12.product-details{
 	  	top:50%
 	}
+}
