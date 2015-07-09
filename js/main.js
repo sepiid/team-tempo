@@ -11,7 +11,7 @@ $( document ).ready(function() {
   $(window).resize(function() {
     $('.product-details').css({height:window.height});
   });
-     $(document).ready(function() {
+    
  
   $("#owl-demo2").owlCarousel({
  
@@ -23,8 +23,17 @@ $( document ).ready(function() {
      
  
   });
+ $("#owl-demo3").owlCarousel({
  
-});
+      navigation : true, 
+      slideSpeed : 500,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+     
+ 
+  });
+
     var width= $( window ).width()/16;
     $('.close-detail').click(function() {
         
@@ -58,14 +67,7 @@ $( document ).ready(function() {
         },500 );
       
     });
-    $('#iron').click(function() {
-      $('.iron-image').show().animate({
-          left:0
-        },500 );
-        $('.iron-detail').show().animate({
-          right:0
-        },500 );
-    });
+    
     $('#sun').click(function() {
       
         $('.sun-image').show().animate({
@@ -76,46 +78,7 @@ $( document ).ready(function() {
         },500 );
      
     });
-    $('#trick').click(function() {
-      
-        $('.trick-image').show().animate({
-          left:0
-        },500 );
-        $('.trick-detail').show().animate({
-          right:0
-        },500 );
-     
-    });
-    $('#sphere').click(function() {
-      
-        $('.sphere-image').show().animate({
-          left:0
-        },500 );
-        $('.sphere-detail').show().animate({
-          right:0
-        },500 );
-     
-    });
-    $('#vinyl').click(function() {
-      
-        $('.vinyl-image').show().animate({
-          left:0
-        },500 );
-        $('.vinyl-detail').show().animate({
-          right:0
-        },500 );
-      
-    });
-    $('#solar').click(function() {
-     
-        $('.solar-image').show().animate({
-          left:0
-        },500 );
-        $('.solar-detail').show().animate({
-          right:0
-        },500 );
-    
-    });
+   
     $('#gravity-green').click(function() {
      
       document.getElementById("gravity-blue-watch").src="../img/gravity-green.jpg";
@@ -165,5 +128,53 @@ $( document ).ready(function() {
         },500 );
 
     });
-    
+    $('#sun-yellow').click(function() {
+     
+      document.getElementById("sun-yellow-watch").src="../img/sun-yellow.jpg";
+      document.getElementById("sun-yellow-angle-watch").src="../img/sun-yellow-angle.jpg";
+      document.getElementById("sun-yellow-side-watch").src="../img/sun-yellow-side.jpg";
+      $('#sun-blue').animate({
+          opacity:0.4
+        },500 );
+      $('#sun-white').animate({
+          opacity:0.4
+        },500 );
+      $('#sun-yellow').animate({
+          opacity:1
+        },500 );
+
+    });
+    $('#sun-white').click(function() {
+      
+      document.getElementById("sun-yellow-watch").src="../img/sun-white.jpg";
+      document.getElementById("sun-yellow-angle-watch").src="../img/sun-white-angle.jpg";
+      document.getElementById("sun-yellow-side-watch").src="../img/sun-white-side.jpg";
+      $('#sun-white').animate({
+          opacity:1
+        },500 );
+      $('#sun-yellow').animate({
+          opacity:0.4
+        },500 );
+      $('#sun-blue').animate({
+          opacity:0.4
+        },500 );
+
+    });
+    $('#sun-blue').click(function() {
+     
+      document.getElementById("sun-yellow-watch").src="../img/sun-blue.jpg";
+      document.getElementById("sun-yellow-angle-watch").src="../img/sun-blue-angle.jpg";
+      document.getElementById("sun-yellow-side-watch").src="../img/sun-blue-side.jpg";
+      
+      $('#sun-yellow').animate({
+          opacity:0.4
+        },500 );
+      $('#sun-white').animate({
+          opacity:0.4
+        },500 );
+      $('#sun-blue').animate({
+          opacity:1
+        },500 );
+
+    });
 });
