@@ -33,6 +33,16 @@ $( document ).ready(function() {
      
  
   });
+ $("#owl-demo4").owlCarousel({
+ 
+      navigation : true, 
+      slideSpeed : 500,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+     
+ 
+  });
 
     var width= $( window ).width()/16;
     $('.close-detail').click(function() {
@@ -173,6 +183,55 @@ $( document ).ready(function() {
           opacity:0.4
         },500 );
       $('#sun-blue').animate({
+          opacity:1
+        },500 );
+
+    });
+    $('#polar-silver').click(function() {
+     
+      document.getElementById("polar-silver-watch").src="../img/polar-silver.jpg";
+      document.getElementById("polar-silver-angle-watch").src="../img/polar-silver-angle.jpg";
+      document.getElementById("polar-silver-side-watch").src="../img/polar-silver-side.jpg";
+      $('#polar-sky').animate({
+          opacity:0.4
+        },500 );
+      $('#polar-gold').animate({
+          opacity:0.4
+        },500 );
+      $('#polar-silver').animate({
+          opacity:1
+        },500 );
+
+    });
+    $('#polar-gold').click(function() {
+      
+      document.getElementById("polar-silver-watch").src="../img/polar-gold.jpg";
+      document.getElementById("polar-silver-angle-watch").src="../img/polar-gold-angle.jpg";
+      document.getElementById("polar-silver-side-watch").src="../img/polar-gold-side.jpg";
+      $('#polar-gold').animate({
+          opacity:1
+        },500 );
+      $('#polar-sky').animate({
+          opacity:0.4
+        },500 );
+      $('#polar-silver').animate({
+          opacity:0.4
+        },500 );
+
+    });
+    $('#polar-sky').click(function() {
+     
+      document.getElementById("polar-silver-watch").src="../img/polar-sky.jpg";
+      document.getElementById("polar-silver-angle-watch").src="../img/polar-sky-angle.jpg";
+      document.getElementById("polar-silver-side-watch").src="../img/polar-sky-side.jpg";
+      
+      $('#polar-silver').animate({
+          opacity:0.4
+        },500 );
+      $('#polar-gold').animate({
+          opacity:0.4
+        },500 );
+      $('#polar-sky').animate({
           opacity:1
         },500 );
 

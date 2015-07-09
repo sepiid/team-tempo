@@ -511,7 +511,7 @@ ul.pill-tabs {
   margin-bottom: 4em;
 }
 
-#owl-demo2, #owl-demo3 .owl-controls .owl-buttons{
+#owl-demo2 .owl-controls .owl-buttons, #owl-demo3 .owl-controls .owl-buttons, #owl-demo4 .owl-controls .owl-buttons{
 	display:none;
 }
 .billing-info {
@@ -739,7 +739,7 @@ margin-top: 4em;
   cursor: pointer;
   
 }
-#gravity-blue, #sun-yellow{
+#gravity-blue, #sun-yellow, #polar-silver{
 	opacity: 1;
 }
 @media (max-width: 54em) {
@@ -818,7 +818,7 @@ input.quantity{
 
 .subtotal-border{
 	border-bottom: 1px solid rgba(83,98,102,0.6);
-	
+}
 
 @media (max-width: 57em){
 	
