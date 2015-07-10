@@ -56,6 +56,16 @@ $( document ).ready(function() {
         
          
     });
+    $('#sample-product').click(function() {
+    
+        $('.sample-image').show().animate({
+          left:0
+        },500 );
+        $('.sample-detail').show().addClass('active').animate({
+          right:0
+        },500 );
+
+    });
     $('#gravity').click(function() {
     
         $('.gravity-image').show().animate({
