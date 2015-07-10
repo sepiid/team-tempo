@@ -103,7 +103,7 @@ $( document ).ready(function() {
       $('#gravity-green').animate({
           opacity:1
         },500 );
-
+      $("#gravity-link").attr("href", "../shopping-cart/gravity-green.html");
     });
     $('#gravity-blue').click(function() {
       
@@ -119,7 +119,7 @@ $( document ).ready(function() {
       $('#gravity-green').animate({
           opacity:0.4
         },500 );
-
+      $("#gravity-link").attr("href", "../shopping-cart/gravity-blue.html");
     });
     $('#gravity-gray').click(function() {
      
@@ -136,7 +136,7 @@ $( document ).ready(function() {
       $('#gravity-gray').animate({
           opacity:1
         },500 );
-
+      $("#gravity-link").attr("href", "../shopping-cart/gravity-gray.html");
     });
     $('#sun-yellow').click(function() {
      
@@ -152,7 +152,7 @@ $( document ).ready(function() {
       $('#sun-yellow').animate({
           opacity:1
         },500 );
-
+      $("#sun-link").attr("href", "../shopping-cart/sun-yellow.html");
     });
     $('#sun-white').click(function() {
       
@@ -168,7 +168,7 @@ $( document ).ready(function() {
       $('#sun-blue').animate({
           opacity:0.4
         },500 );
-
+      $("#sun-link").attr("href", "../shopping-cart/sun-white.html");
     });
     $('#sun-blue').click(function() {
      
@@ -185,7 +185,7 @@ $( document ).ready(function() {
       $('#sun-blue').animate({
           opacity:1
         },500 );
-
+      $("#sun-link").attr("href", "../shopping-cart/sun-blue.html");
     });
     $('#polar-silver').click(function() {
      
@@ -201,7 +201,7 @@ $( document ).ready(function() {
       $('#polar-silver').animate({
           opacity:1
         },500 );
-
+      $("#polar-link").attr("href", "../shopping-cart/polar-silver.html");
     });
     $('#polar-gold').click(function() {
       
@@ -217,7 +217,7 @@ $( document ).ready(function() {
       $('#polar-silver').animate({
           opacity:0.4
         },500 );
-
+       $("#polar-link").attr("href", "../shopping-cart/polar-gold.html");
     });
     $('#polar-sky').click(function() {
      
@@ -234,6 +234,6 @@ $( document ).ready(function() {
       $('#polar-sky').animate({
           opacity:1
         },500 );
-
+       $("#polar-link").attr("href", "../shopping-cart/polar-sky.html");
     });
 });
