@@ -324,7 +324,7 @@ a.nav-item:hover:before, a.nav-item:hover:after {
 }
 .navigation-small-size {
 	margin: auto;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 	z-index: 10000;
 	position: absolute;
 	width: 8em;
